@@ -13,6 +13,7 @@ var credentials = {
 };
 
 
+
 var oauth2 = require('simple-oauth2').create(credentials);
 
 var redirectUri = 'http://localhost:8000/authorize';
